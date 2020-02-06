@@ -16,11 +16,11 @@ class Directory extends React.Component {
                 linkUrl: 'makeup'
               },
               {
-                title: 'Best Sallers',
+                title: 'Best Sellers',
                 imageUrl: 'https://i.ibb.co/hdPK1v5/6.png',
                 size:'large',
                 id: 2,
-                linkUrl: 'BestSallers'
+                linkUrl: 'BestSellers'
 
               },
               {
