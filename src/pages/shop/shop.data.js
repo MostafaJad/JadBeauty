@@ -71,7 +71,7 @@ const SHOP_DATA = [
     },
     {
       id: 2,
-      title: 'BestSallers',
+      title: 'bestSallers',
       routeName: 'bestsallers',
       items: [
         {
@@ -134,7 +134,7 @@ const SHOP_DATA = [
     },
     {
       id: 3,
-      title: 'Skin Care',
+      title: 'skinCare',
       routeName: 'skinecare',
       items: [
         {
@@ -282,4 +282,3 @@ const SHOP_DATA = [
   ];
   
   export default SHOP_DATA;
-  
