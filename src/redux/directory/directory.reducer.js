@@ -1,18 +1,18 @@
-const INTIAL_STATE = {
+const INITIAL_STATE = {
     sections: [
         {
             title: 'MakeUp',
             imageUrl: 'https://i.ibb.co/LxJ9M1Q/4.png',
             size:'large',
             id: 1,
-            linkUrl: 'makeup'
+            linkUrl: 'shop/makeup'
         },
         {
             title: 'Best Sellers',
             imageUrl: 'https://i.ibb.co/hdPK1v5/6.png',
             size:'large',
             id: 2,
-            linkUrl: 'BestSellers'
+            linkUrl: 'shop/bestsallers'
 
         },
         {
@@ -20,7 +20,7 @@ const INTIAL_STATE = {
             imageUrl: 'https://i.ibb.co/WtL7tQG/6.png',
             size: 'large',
             id: 3,
-            linkUrl: 'SkinCare'
+            linkUrl: 'shop/skincare'
 
         },
         {
@@ -28,7 +28,7 @@ const INTIAL_STATE = {
             imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
             size: 'large',
             id: 4,
-            linkUrl: 'womens'
+            linkUrl: 'shop/womens'
 
         },
         {
@@ -36,13 +36,13 @@ const INTIAL_STATE = {
             imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
             size: 'large',
             id: 5,
-            linkUrl: 'mens'
+            linkUrl: 'shop/mens'
 
         }
     ]
 };
 
-const directoryReducer = (state = INTIAL_STATE, action) => {
+const directoryReducer = (state = INITIAL_STATE, action) => {
     switch(action.type){
         default:
             return state;
